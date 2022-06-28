@@ -1,14 +1,12 @@
 #Importing numpy, scipy, mpmath and pyplot
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy
+from scipy.stats import uniform
 
 #if using termux
 # import subprocess
 # import shlex
 #end if
-
-
 
 x = np.linspace(-4,4,40)#points on the x axis
 simlen = int(1e6) #number of samples
@@ -22,14 +20,8 @@ for i in range(0,40):
 	err.append(err_n/simlen) #storing the probability values in a list
 
 
-def uni_cdf(x):
-	if x>-0.3 and x<1.3:
-		return x
-
-vec_uni_cdf = scipy.vectorize(uni_cdf)
-
 plt.plot(x.T,err,"o")#plotting the CDF
-plt.plot(x.T,vec_uni_cdf(x))#plotting the CDF
+plt.plot(x,uniform.cdf(x))
 plt.grid() #creating the grid
 plt.xlabel('$x$')
 plt.ylabel('$F_X(x)$')
