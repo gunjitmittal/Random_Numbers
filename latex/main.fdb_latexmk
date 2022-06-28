@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1656390568 "/Users/Shared/probability/manual/latex/main.tex" "main.pdf" "main" 1656390569
+["pdflatex"] 1656390936 "/Users/Shared/probability/manual/latex/main.tex" "main.pdf" "main" 1656390936
   "../figs/V_cdf.pdf" 1656388870 9734 13cd2e26ae8c29f289e7a6962d582b47 ""
   "../figs/gauss_cdf.pdf" 1656053139 9857 0bfd20ce2afca715f3a9b7795cd701c0 ""
   "../figs/gauss_pdf.pdf" 1656053139 15005 cafa597555e938dabd75b580c6779403 ""
   "../figs/uni_cdf.pdf" 1656053139 9685 ce094015119e63bb006e14299fccb9e9 ""
-  "/Users/Shared/probability/manual/latex/main.tex" 1656390567 9781 d2b1e7688d0902f9097ef13f42e40364 ""
+  "/Users/Shared/probability/manual/latex/main.tex" 1656390935 9969 75e33c9a6f3ac021d0f3873d29b8a0ba ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -206,10 +206,10 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1650231413 2826440 b8bd6894725aece212af1feb146bc9ad ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "main.aux" 1656390569 1831 710fea00195fc33af4c35dc320708949 "pdflatex"
-  "main.out" 1656390569 470 52185e15dc6bd70239c860ce9e02c002 "pdflatex"
-  "main.tex" 1656390567 9781 d2b1e7688d0902f9097ef13f42e40364 ""
-  "main.toc" 1656390569 232 f218bef220bce358d051db8b4fcd8aa2 "pdflatex"
+  "main.aux" 1656390936 1831 0071ca4898a3826b1addb0bcdec50301 "pdflatex"
+  "main.out" 1656390936 470 52185e15dc6bd70239c860ce9e02c002 "pdflatex"
+  "main.tex" 1656390935 9969 75e33c9a6f3ac021d0f3873d29b8a0ba ""
+  "main.toc" 1656390936 232 4d3fb97ff85f895f85f0b15c19117eaa "pdflatex"
   (generated)
   "main.aux"
   "main.log"

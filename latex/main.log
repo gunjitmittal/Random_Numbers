@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.18)  28 JUN 2022 09:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.18)  28 JUN 2022 10:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -704,76 +704,74 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
  <../figs/uni_cdf.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-<../figs/gauss_cdf.pdf, id=96, 462.52798pt x 346.89601pt>
+<../figs/gauss_cdf.pdf, id=98, 462.52798pt x 346.89601pt>
 File: ../figs/gauss_cdf.pdf Graphic file (type pdf)
 <use ../figs/gauss_cdf.pdf>
-Package pdftex.def Info: ../figs/gauss_cdf.pdf  used on input line 175.
+Package pdftex.def Info: ../figs/gauss_cdf.pdf  used on input line 179.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176         \caption{The CDF of $X$}
+l.180         \caption{The CDF of $X$}
                                       \label{fig:gauss_cdf}
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-<../figs/gauss_pdf.pdf, id=98, 462.52798pt x 346.89601pt>
+<../figs/gauss_pdf.pdf, id=100, 462.52798pt x 346.89601pt>
 File: ../figs/gauss_pdf.pdf Graphic file (type pdf)
 <use ../figs/gauss_pdf.pdf>
-Package pdftex.def Info: ../figs/gauss_pdf.pdf  used on input line 190.
+Package pdftex.def Info: ../figs/gauss_pdf.pdf  used on input line 194.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[2 <../figs/gauss_cdf.pdf> <../figs/gauss_pdf.pdf
+ [2 <../figs/gauss_cdf.pdf> <../figs/gauss_pdf.pdf
 
 pdfTeX warning: pdflatex (file ../figs/gauss_pdf.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<../figs/V_cdf.pdf, id=200, 462.52798pt x 346.89601pt>
+<../figs/V_cdf.pdf, id=192, 462.52798pt x 346.89601pt>
 File: ../figs/V_cdf.pdf Graphic file (type pdf)
 <use ../figs/V_cdf.pdf>
-Package pdftex.def Info: ../figs/V_cdf.pdf  used on input line 224.
+Package pdftex.def Info: ../figs/V_cdf.pdf  used on input line 232.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.225         \caption{The CDF of $V$}
-                                      \label{fig:V_cdf} [3
-
- <../figs/V_cdf.pdf>] (./main.aux)
+l.233         \caption{The CDF of $V$}
+                                      \label{fig:V_cdf} [3 <../figs/V_cdf.pdf>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 52185E15DC6BD70239C860CE9E02C002;470.
  ) 
 Here is how much of TeX's memory you used:
- 24335 strings out of 478268
- 444149 string characters out of 5846347
- 845434 words of memory out of 5000000
+ 24341 strings out of 478268
+ 444234 string characters out of 5846347
+ 848434 words of memory out of 5000000
  42039 multiletter control sequences out of 15000+600000
  507884 words of font info for 114 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  100i,13n,104p,463b,1934s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (3 pages, 174983 bytes).
+Output written on main.pdf (3 pages, 175304 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
+ 86 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
