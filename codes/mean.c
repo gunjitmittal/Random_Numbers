@@ -17,6 +17,6 @@ int main()
         sum2 += (data[i] - exp)*(data[i] - exp);
     }
     float var = sum2/1000000;
-    printf("%f\n",exp);
-    printf("%f\n",var);
+    printf("Mean: %f\n",exp);
+    printf("Variance: %f\n",var);
 }
