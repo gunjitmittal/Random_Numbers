@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1656392092 "/Users/Shared/probability/manual/latex/main.tex" "main.pdf" "main" 1656392093
-  "../figs/V_cdf.pdf" 1656388870 9734 13cd2e26ae8c29f289e7a6962d582b47 ""
+["pdflatex"] 1656393180 "/Users/Shared/probability/manual/latex/main.tex" "main.pdf" "main" 1656393180
+  "../figs/V_cdf.pdf" 1656393179 10852 b6ecaab65149cb5e0d4397eb9573e028 ""
   "../figs/gauss_cdf.pdf" 1656392092 10535 1c950acb2efe471c34fe146ab1627689 ""
   "../figs/gauss_pdf.pdf" 1656053139 15005 cafa597555e938dabd75b580c6779403 ""
-  "../figs/uni_cdf.pdf" 1656391784 10028 382d418715109e1c3030672ca1b5603a ""
+  "../figs/uni_cdf.pdf" 1656392715 10249 6b78c1a19199bb9ddaeaaf08480aa6ed ""
   "/Users/Shared/probability/manual/latex/main.tex" 1656391901 10001 716dd29422ccdc8280924bb706ad2886 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -206,10 +206,10 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1650231413 2826440 b8bd6894725aece212af1feb146bc9ad ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "main.aux" 1656392093 1831 0071ca4898a3826b1addb0bcdec50301 "pdflatex"
-  "main.out" 1656392093 470 52185e15dc6bd70239c860ce9e02c002 "pdflatex"
+  "main.aux" 1656393180 1831 0071ca4898a3826b1addb0bcdec50301 "pdflatex"
+  "main.out" 1656393180 470 52185e15dc6bd70239c860ce9e02c002 "pdflatex"
   "main.tex" 1656391901 10001 716dd29422ccdc8280924bb706ad2886 ""
-  "main.toc" 1656392093 232 4d3fb97ff85f895f85f0b15c19117eaa "pdflatex"
+  "main.toc" 1656393180 232 4d3fb97ff85f895f85f0b15c19117eaa "pdflatex"
   (generated)
   "main.aux"
   "main.log"
