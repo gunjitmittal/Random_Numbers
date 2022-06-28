@@ -103,24 +103,35 @@ columns=fullflexible
 \section{Uniform Random Numbers}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-    \item
-    \begin{figure}[h]
+    \item \solution{} Download the following files and execute the  C program.
+    \begin{lstlisting}
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/coeffs.h
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/exrand.c
+    gcc exrand.c
+    ./a.out
+    \end{lstlisting}
+    \item \solution{} The following code plots Fig.~\ref{fig:uni_cdf}
+    \begin{lstlisting}
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/cdf_plot.py
+    python cdf_plot.py
+    \end{lstlisting}
+     \begin{figure}[h]
         \centering
         \includegraphics[width=\columnwidth]{../figs/uni_cdf}
         \caption{The CDF of $U$}\label{fig:uni_cdf}
         \end{figure}
-    \item
-    \item \solution{}Since U is  a uniform distribution
+    \item \solution{} Since U is  a uniform distribution
     \begin{align}
         F_U(x) = x
     \end{align}
-    \item
-    \item Verify your result theoretically given that
+    \item \solution{} Download the following files and execute the  C program.
+    \begin{lstlisting}
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/mean.c
+    gcc mean.c
+    ./a.out
+    \end{lstlisting}
+    \item \solution{}
     \end{enumerate}
-    %
-    \begin{equation}
-    E\sbrak{U^k} = \int_{-\infty}^{\infty}x^k dF_{U}(x)
-    \end{equation}
     \begin{align}
         &E\sbrak{U} = \int_{-\infty}^{\infty}x dF_U(x)\\
         &~~~~~= \int_{0}^{1}x dx\\
@@ -141,25 +152,50 @@ columns=fullflexible
     \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
     %
-    \item
-    \item 
+    \item \solution{} Download the following files and execute the  C program.
+    \begin{lstlisting}
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/coeffs.h
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/exrand2.c
+    gcc exrand2.c
+    ./a.out
+    \end{lstlisting}
+    \item \solution{}
+    The following code plots Fig.~\ref{fig:gauss_cdf}
+    \begin{lstlisting}
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/cdf_plot2.py
+    python cdf_plot2.py
+    \end{lstlisting}
+    \begin{itemize}
+        \item CDF reaches 0.5 as it reaches the mean(0)\\ 
+        \item It reaches 1 as the graph reaches the end\\
+        \item Differentiating the graph we obtain the graph of the PDF.
+    \end{itemize}
     \begin{figure}[h]
         \centering
         \includegraphics[width=\columnwidth]{../figs/gauss_cdf}
         \caption{The CDF of $X$}\label{fig:gauss_cdf}
         \end{figure}
     \item\solution{}
+    The following code plots Fig.~\ref{fig:gauss_pdf}
+    \begin{lstlisting}
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/pdf_plot.py
+    python pdf_plot.py
+    \end{lstlisting}
     \begin{itemize}
-        \item PDF is symmetric about x=0\\ 
-        \item Graph is bell shaped\\
-        \item Mean of graph is situated at the apex point of the bell.
+        \item PDF is symmetric about x = mean(0)\\ 
+        \item Graph is shpaed like a bell\\
     \end{itemize}
     \begin{figure}[h]
     \centering
     \includegraphics[width=\columnwidth]{../figs/gauss_pdf}
     \caption{The PDF of $X$}\label{fig:gauss_pdf}
     \end{figure}
-    \item
+    \item \solution{} Download the following files and execute the  C program.
+    \begin{lstlisting}
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/mean2.c
+    gcc mean2.c
+    ./a.out
+    \end{lstlisting}
     \item \begin{align}
         &F_X(x) = \int_{-\infty}^{x} \frac{1}{\sqrt[]{2\pi}}e^{-\frac{x^2}{2}}\\
         &~~~~~~~= \frac{1}{2} erf(\frac{x}{\sqrt[]{2}})\\
@@ -177,8 +213,13 @@ columns=fullflexible
     \section{From Uniform to Other}
     \begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]
     %
-    \item
-    \begin{figure}
+    \item \solution{}
+    The following code plots Fig.~\ref{fig:V_cdf}
+    \begin{lstlisting}
+    wget https://github.com/gunjitmittal/Random_Numbers/blob/main/codes/cdf_plot3.py
+    python cdf_plot3.py
+    \end{lstlisting}
+    \begin{figure}[h]
         \centering
         \includegraphics[width=\columnwidth]{../figs/V_cdf}
         \caption{The CDF of $V$}\label{fig:V_cdf}
