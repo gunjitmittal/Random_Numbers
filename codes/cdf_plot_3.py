@@ -31,7 +31,7 @@ plt.plot(x.T,err, "o")#plotting the CDF
 plt.grid() #creating the grid
 plt.xlabel('$x$')
 plt.ylabel('$F_X(x)$')
-
+plt.legend(["Theory","Numerical"])
 #if using termux
 # plt.savefig('../figs/uni_cdf.pdf')
 # plt.savefig('../figs/uni_cdf.eps')

@@ -36,12 +36,13 @@ def gauss_pdf(x):
 	
 vec_gauss_pdf = scipy.vectorize(gauss_pdf)
 
-plt.plot(x[0:(maxrange-1)].T,pdf,'o')
+
 plt.plot(x,vec_gauss_pdf(x))#plotting the CDF
+plt.plot(x[0:(maxrange-1)].T,pdf,'o')
 plt.grid() #creating the grid
 plt.xlabel('$x_i$')
 plt.ylabel('$p_X(x_i)$')
-plt.legend(["Numerical","Theory"])
+plt.legend(["Theory","Numerical"])
 
 #if using termux
 #plt.savefig('../figs/uni_pdf.pdf')
