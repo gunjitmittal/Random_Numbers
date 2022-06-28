@@ -21,7 +21,8 @@
     \usepackage{multirow}                                         
     \usepackage{hhline}                                           
     \usepackage{ifthen}                                           
-    \usepackage{lscape}     
+    \usepackage{lscape} 
+\DeclareMathOperator\erf{erf}    
 \DeclareMathOperator*{\Res}{Res}
 \DeclareMathOperator*{\equals}{=}
 \renewcommand\thesection{\arabic{section}}
@@ -206,7 +207,7 @@ columns=fullflexible
     \end{lstlisting}
     \item \begin{align}
         &F_X(x) = \int_{-\infty}^{x} \frac{1}{\sqrt[]{2\pi}}e^{-\frac{x^2}{2}}\\
-        &~~~~~~~= \frac{1}{2} erf(\frac{x}{\sqrt[]{2}})\\
+        &~~~~~~~= \frac{1}{2} \erf (\frac{x}{\sqrt[]{2}})\\
         &E[X] = \frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty}xe^{-\frac{x^2}{2}}dx\\
         &\text{Taking  }\frac{x^2}{2} = t \implies x dx = dt\\
         &E[X] = \frac{1}{\sqrt[]{2\pi}}\int_{\infty}^{\infty}e^{-t}dt = 0\\
